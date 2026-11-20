@@ -1,5 +1,5 @@
 
-# FoodZedo - React + TypeScript
+# FoodZero - React + TypeScript
 
 ---
 
