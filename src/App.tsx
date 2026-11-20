@@ -28,6 +28,8 @@ function App() {
                 <Route path="/portfolio_grids" element={<Portfolio_Grids />} />
                 <Route path="/single_post_no_slidebar" element={<Single_Post_No_Slidebar />} />
                 <Route path="/single_post_with_slidebar" element={<Single_Post_With_Slidebar />} />
+
+                <Route path="*" element={<Navigate to="/home" />} />
             </Routes>
         </Router>
     )
