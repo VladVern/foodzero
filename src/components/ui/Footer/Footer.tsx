@@ -3,7 +3,7 @@ import Social_Media from "../../../assets/home/Social_Media.png"
 import './style.css'
 
 export default function Footer() {
-    function handleFormSubmit(e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) {
+    function handleFormSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault()
         
         console.log('Send')

@@ -16,7 +16,6 @@ import Avatar_Third from '../../../../assets/blogs/blog_one_column/Avatar_Third.
 import Avatar_Fourth from '../../../../assets/blogs/blog_one_column/Avatar_Fourth.png'
 import Avatar_Sixth from '../../../../assets/blogs/blog_one_column/Avatar_Sixth.png'
 import Vector from '../../../../assets/blogs/blog_one_column/Vector.png'
-import Social_Media from '../../../../assets/blogs/blog_one_column/Social_Media.png'
 
 function Blog_One_Column() {
     return (
