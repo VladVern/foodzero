@@ -1,0 +1,535 @@
+.Header_Menu {
+    height: 690px;
+
+    background-image: url(../../../assets/menu/HeaderImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.First {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.Second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.Logo {
+    width: 307px;
+    height: 115px;
+
+    margin-right: 50px;
+}
+
+.menu-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    width: 50px;
+    height: 30px;
+
+    background: none;
+
+    border: none;
+
+    cursor: pointer;
+
+    z-index: 1000;
+}
+
+.menu-open span {
+    position: absolute;
+
+    width: 100%;
+    height: 2px;
+
+    background: white;
+
+    border-radius: 1px;
+
+    transition: transform 0.3s ease, opacity 0.3s ease, top 0.3s ease;
+}
+
+.menu-open span:nth-child(1) {
+    top: 0;
+
+    transform: rotate(0);
+}
+
+.menu-open span:nth-child(2) {
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    opacity: 1;
+}
+
+.menu-open span:nth-child(3) {
+    bottom: 0;
+
+    transform: rotate(0);
+}
+
+.menu-open.open span:nth-child(1) {
+    top: 50%;
+
+    transform: rotate(45deg);
+    transform-origin: center;
+}
+
+.menu-open.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-open.open span:nth-child(3) {
+    top: 50%;
+
+    transform: rotate(-45deg);
+    transform-origin: center;
+}
+
+.SideMenu_Menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+
+    width: 100%;
+    height: 100%;
+
+    color: white;
+
+    background: linear-gradient(rgba(35, 48, 0, 0.8), rgba(35, 48, 0, 0.7)), url(../../../assets/menu_open/Menu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    transition: right 0.3s ease-in-out;
+
+    z-index: 500;
+}
+
+.SideMenu_Menu.open {
+    right: 0;
+}
+
+.SideMenu_Menu ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.SideMenu_Menu li {
+    margin: 20px 0;
+    margin-left: 20px;
+}
+
+.SideMenu_Menu h1 {
+    margin-left: 20px;
+    padding-top: 12px;
+}
+
+.SideMenu_Menu a {
+    color: white;
+
+    font-size: 20px;
+
+    text-decoration: none;
+
+    transition: color 0.3s ease;
+}
+
+.SideMenu_Menu a:nth-child(1) li a,
+.SideMenu_Menu a:nth-child(2) li a,
+.SideMenu_Menu a:nth-child(3) li a,
+.SideMenu_Menu a:nth-child(4) li a {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.SideMenu_Menu a:nth-child(2) li a {
+    color: #9caa00;
+}
+
+.SideMenu_Menu a:nth-child(6) li a,
+.SideMenu_Menu a:nth-child(7) li a,
+.SideMenu_Menu a:nth-child(9) li a,
+.SideMenu_Menu a:nth-child(10) li a,
+.SideMenu_Menu a:nth-child(12) li a,
+.SideMenu_Menu a:nth-child(13) li a {
+    padding-left: 20px;
+}
+
+.SideMenu_Menu a:hover {
+    color: #9caa00;
+}
+
+.Contact_Open_Menu {
+    padding-top: 16%;
+}
+
+.Contact_Open_Menu h6 {
+    font-size: 30px;
+
+    margin: 0;
+}
+
+.Contact_Open_Menu hr {
+    border: none;
+    border-top: 2px dashed white;
+}
+
+.Contact_Open_Menu_First {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Contact_Open_Menu_First p {
+    font-size: 20px;
+}
+
+.Contact_Open_Menu_Second p {
+    font-size: 20px;
+}
+
+.Contact_Open_Menu img {
+    width: 200px;
+    height: auto;
+
+    padding-top: 20px;
+}
+
+.Number {
+    color: white;
+
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+
+    margin-right: 25px;
+}
+
+.Reservations {
+    color: white;
+
+    font-size: 22px;
+    font-weight: 950px;
+    font-family: 'Rufina', serif;
+
+    background-color: transparent;
+
+    border: 1px solid white;
+
+    padding: 15px 25px;
+
+    cursor: pointer;
+}
+
+.Headline_Hero_Text {
+    margin-left: 450px;
+    margin-top: 110px;
+}
+
+.Headline_Hero_Text h1 {
+    color: white;
+
+    font-size: 90px;
+    font-weight: 520;
+
+    margin-bottom: 20px;
+}
+
+.Headline_Hero_Text p {
+    color: white;
+
+    font-size: 22px;
+}
+
+.Blueberry {
+    position: absolute;
+
+    left: 70%;
+    bottom: 7%;
+    z-index: -1;
+
+    width: 400px;
+    height: auto;
+
+    transform: translateX(-50%);
+}
+
+.Text_Starters {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    padding-bottom: 60px;
+}
+
+.Text_Starters h1 {
+    font-size: 60px;
+
+    margin-bottom: 10px;
+}
+
+.Text_Starters p {
+    color: #b0b0b0;
+
+    font-weight: bold;
+
+    margin-top: 0;
+}
+
+.Price_Starters_Items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Price_Starters_Items img {
+    width: 500px;
+    height: auto;
+}
+
+
+.Mains {
+    margin-top: 70px;
+}
+
+.Text_Mains {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    padding-bottom: 60px;
+}
+
+.Text_Mains h1 {
+    font-size: 60px;
+
+    margin-bottom: 10px;
+}
+
+.Text_Mains p {
+    color: #b0b0b0;
+
+    font-weight: bold;
+
+    margin-top: 0;
+}
+
+.Price_Mains_Items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Price_Mains_Items img {
+    width: 500px;
+    height: auto;
+}
+
+
+.Pastries_Drinks {
+    margin-top: 70px;
+}
+
+.Avocado {
+    position: absolute;
+
+    right: 30%;
+    top: 225%;
+    z-index: -1;
+
+    width: 400px;
+    height: auto;
+
+    transform: translateX(-50%);
+}
+
+.Text_Pastries_Drinks {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+
+    padding-bottom: 60px;
+}
+
+.Text_Pastries_Drinks h1 {
+    font-size: 60px;
+
+    margin-bottom: 10px;
+}
+
+.Text_Pastries_Drinks p {
+    color: #b0b0b0;
+
+    font-weight: bold;
+
+    margin-top: 0;
+}
+
+.Price_Pastries_Drinks_Items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.Price_Pastries_Drinks_Items img {
+    width: 500px;
+    height: auto;
+}
+
+
+.Menu_Item {
+    margin-bottom: 60px;
+}
+
+.Menu_Item span {
+    font-size: 25px;
+}
+
+.Menu_Item hr {
+    border: none;
+    border-top: 1px dashed black;
+
+    margin: 10px 0;
+}
+
+.menu_Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Menu_Header {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Menu_Header h2 {
+    font-size: 50px;
+    font-weight: bold;
+
+    margin: 0;
+}
+
+.Menu_Item p {
+    color: #555;
+
+    font-size: 14px;
+
+    margin: 5px 0 15px;
+}
+
+
+@media (max-height: 1024px) {
+    .Avocado {
+        position: absolute;
+
+        right: 30%;
+        top: 235%;
+        z-index: -1;
+
+        width: 400px;
+        height: auto;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-height: 881px) {
+    .Blueberry {
+        position: absolute;
+
+        left: 70%;
+        bottom: -10%;
+        z-index: -1;
+
+        width: 400px;
+        height: auto;
+
+        transform: translateX(-50%);
+    }
+
+    .Avocado {
+        position: absolute;
+
+        right: 30%;
+        top: 275%;
+        z-index: -1;
+
+        width: 400px;
+        height: auto;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-height: 700px) {
+    .Blueberry {
+        position: absolute;
+
+        left: 70%;
+        bottom: -42%;
+        z-index: -1;
+
+        width: 400px;
+        height: auto;
+
+        transform: translateX(-50%);
+    }
+
+    .Avocado {
+        position: absolute;
+
+        right: 30%;
+        top: 345%;
+        z-index: -1;
+
+        width: 400px;
+        height: auto;
+
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 1288px) {
+    .Subscribe {
+        display: none;
+    }
+}

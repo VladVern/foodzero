@@ -1,0 +1,407 @@
+.Header_Contact {
+    height: 690px;
+
+    background-image: url(../../../assets/contact/HeaderImg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.First {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.Second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+}
+
+.Logo {
+    width: 307px;
+    height: 115px;
+
+    margin-right: 50px;
+}
+
+.Number {
+    color: white;
+
+    font-size: 18px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+
+    margin-right: 25px;
+}
+
+.Reservations {
+    color: white;
+
+    font-size: 22px;
+    font-weight: 950px;
+    font-family: 'Rufina', serif;
+
+    background-color: transparent;
+
+    border: 1px solid white;
+
+    padding: 15px 25px;
+
+    cursor: pointer;
+}
+
+.Headline_Hero {
+    margin-left: 450px;
+    margin-top: 110px;
+}
+
+.Headline_Hero h1 {
+    color: white;
+
+    font-size: 90px;
+    font-weight: 520;
+
+    margin-bottom: 20px;
+}
+
+.Headline_Hero p {
+    color: white;
+
+    font-size: 22px;
+}
+
+.OpenTime {
+    max-width: 600px;
+
+    text-align: right;
+
+    margin-left: auto;
+    margin-right: 300px;
+}
+
+.Open-time {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 400px;
+
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+
+.Open-time p {
+    color: white;
+
+    margin: 0;
+}
+
+.Open-time p:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Open-time p:last-child {
+    font-size: 18px;
+}
+
+.OpenTime p {
+    color: white;
+
+    font-size: 16px;
+
+    margin: 5px 0;
+}
+
+.Time-eat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 420px;
+
+    border-top: 1px dotted white;
+
+    padding-top: 10px;
+
+    margin-left: auto;
+}
+
+.Time-eat div {
+    color: white;
+
+    text-align: center;
+}
+
+.Time-eat p:first-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.Time-eat p:last-child {
+    font-size: 16px;
+}
+
+.Brunch {
+    color: white;
+}
+
+.Lunch {
+    color: white;
+}
+
+.Dinner {
+    color: white;
+}
+
+
+.Adress_Location {
+    position: relative;
+
+    margin-top: 150px;
+}
+
+.Orange {
+    position: absolute;
+
+    top: -120px;
+    left: 52%;
+    z-index: -1;
+
+    width: 400px;
+    height: auto;
+
+    transform: translateX(-50%);
+}
+
+.Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Contact img {
+    width: 530px;
+    height: 430px;
+}
+
+.Text_Contact {
+    margin-top: 160px;
+    margin-left: 200px;
+}
+
+.Text_Contact p {
+    color: #233000;
+
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.Text_Contact span {
+    color: #9caa00;
+}
+
+.Place {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 120px;
+}
+
+.Text_Place {
+    margin-top: 160px;
+    margin-right: 120px;
+}
+
+.Text_Place p {
+    color: #233000;
+
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.Btn_maps {
+    color: black;
+
+    font-size: 22px;
+    font-weight: 950px;
+    font-family: 'Rufina', serif;
+
+    background-color: transparent;
+
+    border: 1px solid black;
+
+    padding: 15px 25px;
+
+    cursor: pointer;
+
+    margin-top: 15px;
+}
+
+.Place img {
+    width: 550px;
+    height: 680px;
+}
+
+.Reservation_Form {
+    display: grid;
+    justify-items: center;
+    gap: 20px;
+
+    text-align: center;
+
+    background-color: #ebf0e4;
+    border-radius: 10px;
+
+    padding: 40px;
+    padding-bottom: 200px;
+
+    margin-top: 160px;
+}
+
+.Mint {
+    position: absolute;
+    left: 550px;
+    z-index: 0;
+
+    width: 400px;
+    height: auto;
+
+    transform: translateX(-50%);
+}
+
+.Text_Form {
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.Text_Form h1 {
+    font-size: 70px;
+}
+
+.Text_Form p {
+    color: gray;
+
+    font-size: 20px;
+
+    position: absolute;
+
+    margin-top: 120px;
+    margin-right: 350px;
+}
+
+.Form_Contact {
+    display: grid;
+    gap: 20px;
+
+    max-width: 500px;
+
+    margin: 0 auto;
+
+    z-index: 1;
+}
+
+.Name,
+.Time {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.Form_Contact select,
+.Form_Contact input {
+    width: 100%;
+
+    color: black;
+
+    font-size: 18px;
+    font-family: 'Rufina', serif;
+
+    background-color: transparent;
+
+    border: 1px solid black;
+
+    padding: 12px;
+
+    box-sizing: border-box;
+}
+
+.Time select,
+.Time input,
+.Name input {
+    width: 200px;
+}
+
+.Email input,
+.Tel input,
+.Guests select {
+    width: 100%;
+}
+
+.Submit_Btn {
+    width: 100%;
+
+    color: white;
+
+    font-size: 20px;
+    font-family: 'Rufina', serif;
+
+    background-color: #5e6600;
+
+    border: 1px solid black;
+
+    padding: 15px;
+
+    cursor: pointer;
+}
+
+.Server_Response {
+    height: 30px;
+
+    font-size: 30px;
+
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+.Server_Response_red {
+    color: red;
+}
+
+.Server_Response_green {
+    color: rgb(11, 92, 18);
+}
+
+
+@media (max-width: 1288px) {
+    .Subscribe {
+        display: none;
+    }
+
+    .Text_Place {
+        margin-left: 100px;
+    }
+
+    .Headline_Hero {
+        display: none;
+    }
+
+    .OpenTime {
+        margin-top: 230px;
+    }
+}

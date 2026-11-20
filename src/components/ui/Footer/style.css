@@ -1,0 +1,86 @@
+footer {
+    background-color: #233000;
+
+    padding-top: 50px;
+}
+
+.Text_Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.footer h1 {
+    color: white;
+
+    font-size: 40px;
+}
+
+.footer h2 {
+    color: white;
+}
+
+.footer p {
+    color: white;
+}
+
+.Footer_Number {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+footer input {
+    font-size: 18px;
+    font-family: 'Rufina', serif;
+
+    background-color: transparent;
+    border: 1px solid white;
+
+    padding: 15px;
+}
+
+footer button {
+    color: white;
+
+    font-size: 20px;
+    font-family: 'Rufina', serif;
+
+    background-color: #5e6600;
+    border: 1px solid black;
+
+    padding: 15px;
+    margin-left: 15px;
+
+    cursor: pointer;
+}
+
+.Subscribe p {
+    font-size: 13px;
+}
+
+.footer hr {
+    border: none;
+    border-top: 1px dashed white;
+
+    margin-top: 70px;
+}
+
+.Contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.Contacts img {
+    width: 150px;
+    height: auto;
+}
